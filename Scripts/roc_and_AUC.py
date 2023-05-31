@@ -1,3 +1,6 @@
+#the script plots the ROC curve taking as input two different lists of the TPR and FPR values 
+#previosly computed with the performance_and_TPR_FPR.py script and also compute the AUC.
+
 import matplotlib.pyplot as plt
 import numpy as np
 
