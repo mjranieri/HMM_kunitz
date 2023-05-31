@@ -26,7 +26,7 @@ def filter_common_sequences(file1, file2, output_file):
         SeqIO.write(common_sequences, handle, "fasta")
 
 file1 = "uniprot_ids.fasta" 
-file2 = "kunitz_all.fasta"  
+file2 = "positive_set.fasta"  
 output_file = "cleaned_positive_set.fasta"  
 
 filter_common_sequences(file1, file2, output_file)
