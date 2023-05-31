@@ -1,3 +1,6 @@
+#the script 
+
+
 from Bio import SeqIO
 
 def filter_common_sequences(file1, file2, output_file):
